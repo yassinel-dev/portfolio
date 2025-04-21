@@ -1,14 +1,14 @@
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import { NavLink } from "react-router-dom";
-
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
-  console.log(isOpen);
+  const { t, i18n } = useTranslation();
 
   return (
     <header className=" top-0 w-full  z-40 fixed backdrop-blur-sm bg-black/30  shadow-lg md:bg-transparent md:shadow-none md:backdrop-blur-none ">
@@ -28,7 +28,7 @@ export default function Header() {
                   : "hover:bg-white hover:text-[#222831] p-2 rounded-lg transition duration-300"
               }
             >
-              Home
+              {t("home")}
             </NavLink>
             <NavLink
               to="/about"
