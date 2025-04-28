@@ -26,19 +26,19 @@ export default function Home() {
             </div>
             <div className=" bg-emerald-600 w-2 h-2 rounded-full"></div>
             <h3 className=" text-shadow-gray-700 text-sm font-light">
-              Available for Work
+              Disponible pour de nouvelles opportunités
             </h3>
           </div>
           <h1 className="  text-6xl font-medium  mt-4 bg-gradient-to-r from-[#FFFFFF] via-[#9AA19D] to-[#696868] text-transparent bg-clip-text mr-3">
-            Building Scalable Modern Websites For The Future
+            Créer des sites web modernes et évolutifs pour l'avenir
           </h1>
           <div className=" flex justify-start items-center gap-2 mt-4">
             <button className=" flex justify-center items-center gap-2 bg-blue-500 text-sm font-medium p-2 rounded-lg cursor-pointer hover:bg-[#393e46] transition duration-300">
-              Download CV
+              Télécharger CV
               <IoDownloadOutline />
             </button>
             <button className=" flex justify-center items-center gap-2 bg-[#393e46] text-sm font-medium p-2 rounded-lg cursor-pointer hover:bg-blue-500 transition duration-300">
-              Scroll down
+              Faire défiler
               <FaArrowDown />
             </button>
           </div>
@@ -49,34 +49,35 @@ export default function Home() {
       </div>
       <div className=" mt-8 w-full max-w-screen-lg flex flex-col justify-start items-start gap-4 p-6 bg-gray-900 rounded-lg">
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid iste
-          animi nulla eaque ducimus. Ipsa iste accusantium quas itaque velit,
-          maxime, voluptatum alias beatae tempore illum fuga impedit! Natus
-          cumque ducimus dignissimos nobis, nemo tenetur adipisci in.
+          Je suis développeur front-end spécialisé en JavaScript, React et
+          Tailwind CSS. Passionné par la création d'interfaces modernes,
+          performantes et responsive, je m'engage à développer des expériences
+          web innovantes et optimisées pour tous les utilisateurs.
         </p>
         <div className=" flex justify-start items-center gap-4 mt-4">
           <div>
             <h2 className=" text-3xl font-medium flex  items-center gap-1">
-              45<span className=" text-sm text-blue-500">+</span>
+              10<span className=" text-sm text-blue-500">+</span>
             </h2>
-            <p className=" text-sm">Project Done</p>
+            <p className=" text-sm">Projet terminé</p>
           </div>
 
           <div>
             <h2 className=" text-3xl font-medium flex  items-center gap-1">
-              10<span className=" text-sm text-blue-500">+</span>
+              2<span className=" text-sm text-blue-500">+</span>
             </h2>
-            <p className=" text-sm">Years of experience</p>
+            <p className=" text-sm">Années d'expérience</p>
           </div>
         </div>
       </div>
       <div className=" mt-10 w-full lg:mt-15 ">
         <h2 className=" text-2xl font-medium bg-gradient-to-r from-[#FFFFFF] via-[#9AA19D] to-[#696868] text-transparent bg-clip-text mb-2 ">
-          Essential tools i use
+          Outils essentiels que j'utilise
         </h2>
         <p className=" text-sm font-light mb-4">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-          provident iusto repellat, ab porro officia.
+          Voici les outils indispensables que j'utilise au quotidien pour
+          concevoir des sites web modernes, performants et adaptés aux besoins
+          des utilisateurs.
         </p>
         <div className=" flex flex-col justify-start  gap-4 md:grid md:grid-cols-2 lg:grid-cols-4 lg:gap-5 ">
           <div className=" flex gap-2 items-center hover:bg-[#393e46] border-1 border-[#393e46]   p-2 rounded-lg transition duration-300  ">
@@ -150,13 +151,13 @@ export default function Home() {
               <h3 className=" text-2xl font-medium">full stack music app</h3>
               <div className=" flex justify-start items-center gap-2 mt-2">
                 <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
-                  API
+                  REACT
                 </h3>
                 <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
-                  MVC
+                  TAILWIND
                 </h3>
                 <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
-                  Devlopment
+                  VITE
                 </h3>
               </div>
             </div>
