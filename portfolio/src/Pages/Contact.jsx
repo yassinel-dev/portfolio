@@ -28,32 +28,32 @@ export default function Contact() {
     <div className=" max-w-screen-lg mx-auto flex flex-col items-start justify-start   p-4 md:items-center md:justify-center md:mt-10">
       <div>
         <h1 className=" text-2xl font-medium bg-gradient-to-r from-[#FFFFFF] via-[#9AA19D] to-[#696868] text-transparent bg-clip-text">
-          GET IN TOUCH
+          Contactez-moi!
         </h1>
         <p className=" text-gray-400 mt-2">
-          I would love to hear from you! Feel free to reach out for any
-          inquiries or collaborations.
+          J’aimerais beaucoup avoir de vos nouvelles ! N’hésitez pas à me
+          contacter pour toute demande ou collaboration.
         </p>
         <form onSubmit={onSubmit}>
           <div className="flex flex-col gap-4 mt-4">
             <input
               name="name"
               type="text"
-              placeholder="Your Name"
+              placeholder="Votre nom"
               className=" p-2 bg-[#222831] rounded-lg text-white border border-gray-700 focus:outline-none focus:border-blue-500"
               required
             />
             <input
               name="email"
               type="email"
-              placeholder="Your Email"
+              placeholder="votre Email"
               className=" p-2 bg-[#222831] rounded-lg text-white border border-gray-700 focus:outline-none focus:border-blue-500"
               required
             />
             <textarea
               name="message"
               rows={5}
-              placeholder="Your Message"
+              placeholder="votre Message"
               className=" p-2 bg-[#222831] rounded-lg text-white border border-gray-700 focus:outline-none focus:border-blue-500"
               required
             ></textarea>
@@ -61,7 +61,7 @@ export default function Contact() {
               type="submit"
               className="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer"
             >
-              Send Message
+              Envoyer
             </button>
           </div>
         </form>

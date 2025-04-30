@@ -11,7 +11,7 @@ export default function Header() {
   const { t, i18n } = useTranslation();
 
   return (
-    <header className=" top-0 w-full  z-40 fixed backdrop-blur-sm bg-black/30  shadow-lg md:bg-transparent md:shadow-none md:backdrop-blur-none ">
+    <header className=" top-0 w-full  z-40 fixed backdrop-blur-sm bg-black/30  shadow-lg md:bg-gray-950  ">
       <div>
         <div className="container mx-auto flex justify-between items-center p-3 md:p-4">
           <div>
@@ -50,7 +50,7 @@ export default function Header() {
             >
               Work
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/contact"
               className={({ isActive }) =>
                 isActive
@@ -59,11 +59,14 @@ export default function Header() {
               }
             >
               Contact
-            </NavLink>
+            </NavLink> */}
           </ul>
-          <button className=" hidden md:flex md:bg-white text-[#222831] p-2 rounded-lg font-medium text-sm cursor-pointer">
+          <NavLink
+            to="/contact"
+            className=" hidden md:flex md:bg-white text-[#222831] p-2 rounded-lg font-medium text-sm cursor-pointer"
+          >
             Contact Me
-          </button>
+          </NavLink>
           <div
             onClick={handleToggle}
             className=" fixed top-4 right-4 z-50 p-2 bg-[#474a56] rounded-lg text-white  cursor-pointer md:hidden "
