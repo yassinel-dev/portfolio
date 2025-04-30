@@ -169,12 +169,12 @@ export default function Home() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
             >
-              <NavLink
-                to="/work"
+              <a
+                href="https://movie-app-x9u1.vercel.app/"
                 className=" flex justify-center items-center gap-2 bg-blue-400 text-gray-900 text-2xl font-medium p-3 rounded-lg cursor-pointer hover:bg-[#393e46] transition duration-300 mt-4"
               >
                 <MdArrowOutward />
-              </NavLink>
+              </a>
             </motion.button>
           </div>
         </div>
