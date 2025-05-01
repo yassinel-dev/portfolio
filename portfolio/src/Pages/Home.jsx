@@ -197,7 +197,7 @@ export default function Home() {
                   react
                 </h3>
                 <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
-                  css
+                  Tailwindcss
                 </h3>
                 <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
                   Devlopment
