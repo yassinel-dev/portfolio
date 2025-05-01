@@ -250,7 +250,7 @@ export default function Home() {
           </a>
 
           <a
-            href="tel:+212612345678"
+            href="tel:+212781987042"
             className="flex items-center gap-2 px-5 py-3 rounded-lg bg-white/5  hover:bg-white/10 transition-all text-white shadow-md"
           >
             <Phone className="w-5 h-5" />
