@@ -38,7 +38,7 @@ export default function Header() {
                   : "hover:bg-white hover:text-[#222831] p-2 rounded-lg transition duration-300"
               }
             >
-              About
+              À propos
             </NavLink>
             <NavLink
               to="/work"
@@ -48,7 +48,7 @@ export default function Header() {
                   : "hover:bg-white hover:text-[#222831] p-2 rounded-lg transition duration-300"
               }
             >
-              Work
+              projects
             </NavLink>
             {/* <NavLink
               to="/contact"
@@ -65,7 +65,7 @@ export default function Header() {
             to="/contact"
             className=" hidden md:flex md:bg-white text-[#222831] p-2 rounded-lg font-medium text-sm cursor-pointer"
           >
-            Contact Me
+            contacter moi
           </NavLink>
           <div
             onClick={handleToggle}

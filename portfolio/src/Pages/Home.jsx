@@ -1,4 +1,4 @@
-import prfl from "../assets/prfl.jpg";
+import prfl from "../assets/prflimg.jpg";
 import { IoDownloadOutline } from "react-icons/io5";
 import { FaArrowDown } from "react-icons/fa6";
 import { MdArrowOutward } from "react-icons/md";
@@ -14,7 +14,7 @@ import { NavLink } from "react-router-dom";
 import moviepic from "../assets/moviepic.png";
 import { Github, Linkedin, Phone } from "lucide-react";
 import screeshot from "../assets/screen-shot.png";
-
+import myfile from "../assets/myfile.pdf";
 export default function Home() {
   return (
     <div className=" max-w-screen-lg mx-auto px-4 mt-8 ml-3 mr-3  flex flex-col md:mt-20 md:mr-16 md:ml-16  lg:gap-10 lg:mt-20 lg:m-auto lg:w-full">
@@ -36,14 +36,20 @@ export default function Home() {
             Créer des sites web modernes et évolutifs pour l'avenir
           </h1>
           <div className=" flex justify-start items-center gap-2 mt-4">
-            <button className=" flex justify-center items-center gap-2 bg-blue-500 text-sm font-medium p-2 rounded-lg cursor-pointer hover:bg-[#393e46] transition duration-300">
-              Télécharger CV
-              <IoDownloadOutline />
-            </button>
-            <button className=" flex justify-center items-center gap-2 bg-[#393e46] text-sm font-medium p-2 rounded-lg cursor-pointer hover:bg-blue-500 transition duration-300">
-              Faire défiler
-              <FaArrowDown />
-            </button>
+            <a
+              href={myfile}
+              download={myfile}
+              className="flex justify-center items-center gap-2"
+            >
+              <button className=" flex justify-center items-center gap-2 bg-blue-500 text-sm font-medium p-2 rounded-lg cursor-pointer hover:bg-[#393e46] transition duration-300">
+                Télécharger CV
+                <IoDownloadOutline />
+              </button>
+              {/* <button className=" flex justify-center items-center gap-2 bg-[#393e46] text-sm font-medium p-2 rounded-lg cursor-pointer hover:bg-blue-500 transition duration-300">
+                Faire défiler
+                <FaArrowDown />
+              </button> */}
+            </a>
           </div>
         </div>
         <div className=" hidden lg:flex lg:justify-center lg:items-center lg:w-2/3 lg:h-100 lg:rounded-lg lg:overflow-hidden">
