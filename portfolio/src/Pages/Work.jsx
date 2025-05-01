@@ -76,40 +76,6 @@ export default function Work() {
             </motion.button>
           </div>
         </div>
-
-        <div className=" flex flex-col gap-4 p-4 bg-gray-900 rounded-lg cursor-pointer">
-          <div className=" flex justify-center items-center w-full h-70 rounded-lg overflow-hidden">
-            <img src={nosignal} />
-          </div>
-          <div className=" flex justify-between items-center gap-4">
-            <div>
-              <h3 className=" text-2xl font-medium">full stack music app</h3>
-              <div className=" flex justify-start items-center gap-2 mt-2">
-                <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
-                  API
-                </h3>
-                <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
-                  MVC
-                </h3>
-                <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
-                  Devlopment
-                </h3>
-              </div>
-            </div>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              onHoverStart={() => console.log("hover started!")}
-            >
-              <NavLink
-                to="/work"
-                className=" flex justify-center items-center gap-2 bg-blue-400 text-gray-900 text-2xl font-medium p-3 rounded-lg cursor-pointer hover:bg-[#393e46] transition duration-300 mt-4"
-              >
-                <MdArrowOutward />
-              </NavLink>
-            </motion.button>
-          </div>
-        </div>
       </div>
     </div>
   );
