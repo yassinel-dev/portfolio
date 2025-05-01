@@ -54,7 +54,7 @@ export default function Work() {
                   react
                 </h3>
                 <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
-                  Tailwindcss
+                  css
                 </h3>
                 <h3 className=" text-sm font-medium bg-gray-800 p-2 rounded-lg">
                   vite
