@@ -15,6 +15,7 @@ import moviepic from "../assets/moviepic.png";
 import { Github, Linkedin, Phone } from "lucide-react";
 import screeshot from "../assets/screen-shot.png";
 import myfile from "../assets/myfile.pdf";
+import cvpic from "../assets/cvpic.jpg";
 export default function Home() {
   return (
     <div className=" max-w-screen-lg mx-auto px-4 mt-8 ml-3 mr-3  flex flex-col md:mt-20 md:mr-16 md:ml-16  lg:gap-10 lg:mt-20 lg:m-auto lg:w-full">
@@ -23,7 +24,7 @@ export default function Home() {
           <div className=" flex justify-start items-center gap-1.5 ">
             <div className=" relative flex items-center justify-center w-10 h-10  overflow-hidden rounded-lg">
               <img
-                src={prfl}
+                src={cvpic}
                 className=" absolute w-full top-0 bottom-0 left-0 right-0"
               />
             </div>
@@ -53,7 +54,7 @@ export default function Home() {
           </div>
         </div>
         <div className=" hidden lg:flex lg:justify-center lg:items-center lg:w-2/3 lg:h-100 lg:rounded-lg lg:overflow-hidden">
-          <img src={prfl} className=" hidden lg:block" />
+          <img src={cvpic} className=" hidden lg:block" />
         </div>
       </div>
       <div className=" mt-8 w-full max-w-screen-lg flex flex-col justify-start items-start gap-4 p-6 bg-gray-900 rounded-lg">
@@ -229,7 +230,7 @@ export default function Home() {
 
         <div className="flex gap-6 flex-wrap justify-center">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/yassinel-dev"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-5 py-3 rounded-lg bg-white/5  hover:bg-white/10 transition-all text-white shadow-md"
@@ -239,7 +240,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/yassine-dami-093065342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-5 py-3 rounded-lg bg-white/5  hover:bg-white/10 transition-all text-white shadow-md"
@@ -253,7 +254,7 @@ export default function Home() {
             className="flex items-center gap-2 px-5 py-3 rounded-lg bg-white/5  hover:bg-white/10 transition-all text-white shadow-md"
           >
             <Phone className="w-5 h-5" />
-            +212 6 12 34 56 78
+            +212 7 81 98 70 42
           </a>
         </div>
       </div>
