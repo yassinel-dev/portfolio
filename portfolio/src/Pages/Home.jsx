@@ -14,8 +14,8 @@ import { NavLink } from "react-router-dom";
 import moviepic from "../assets/moviepic.png";
 import { Github, Linkedin, Phone } from "lucide-react";
 import screeshot from "../assets/screen-shot.png";
-import myfile from "../assets/myfile.pdf";
 import cvpic from "../assets/cvpic.jpg";
+import file from "../assets/yasinefile.pdf";
 export default function Home() {
   return (
     <div className=" max-w-screen-lg mx-auto px-4 mt-8 ml-3 mr-3  flex flex-col md:mt-20 md:mr-16 md:ml-16  lg:gap-10 lg:mt-20 lg:m-auto lg:w-full">
@@ -38,8 +38,8 @@ export default function Home() {
           </h1>
           <div className=" flex justify-start items-center gap-2 mt-4">
             <a
-              href={myfile}
-              download={myfile}
+              href={file}
+              download={file}
               className="flex justify-center items-center gap-2"
             >
               <button className=" flex justify-center items-center gap-2 bg-blue-500 text-sm font-medium p-2 rounded-lg cursor-pointer hover:bg-[#393e46] transition duration-300">
